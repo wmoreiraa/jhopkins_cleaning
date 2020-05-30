@@ -5,8 +5,8 @@
 
 # Packages ----
 
+library(markdown)
 library(tidyverse)
-library(naniar)
 library(janitor)
 
 # Importing -----
@@ -121,7 +121,15 @@ avg_grouped_df <- avg_df %>%
    group_by(subject, activity_name) %>%
    summarize_all(.funs = mean)
 
-avg_grouped_df
+
+final_tidydata <- avg_grouped_df
+final_mergeddata <- avg_df %>% select(-label)
+
+# Exporting to txt submission files
+
+write_tsv(final_tidydata, path = "final_tidy.txt", col_names = TRUE)
+write_tsv(final_mergeddata, path = "final_merged.txt", col_names = TRUE)
+
 
 
 
