@@ -122,6 +122,9 @@ avg_grouped_df <- avg_df %>%
    summarize_all(.funs = mean)
 
 avg_grouped_df
+
+
+
                  
 
 
