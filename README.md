@@ -5,7 +5,7 @@
 
    This github repository contains the script and both of the outputs dataset's required. The readme file explains how to run the analysis with.
 
-## Course
+## Project
 
    1. Download the original data from: <https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip> 
    2. Unzip the files inside a directory in your working directory named "rdata"
