@@ -1,8 +1,4 @@
----
-title: README
-author: Walber Moreira
-output: md_document
----
+
 
 
 # Getting and Cleaning Data - Course Project
