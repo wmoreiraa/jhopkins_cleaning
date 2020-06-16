@@ -59,8 +59,8 @@ CodeBook
 
 -   Then, we change to be more readable:
 
-    *gyro = gyroscope *acc = accelerometer *mag = magnitude *body\_body
-    = body *t\_ = time *f\_ = frequency
+    gyro = gyroscope acc = accelerometer mag = magnitude body\_body =
+    body *t\_ = time *f\_ = frequency
 
 -   Finally, we create the final\_tidy.txt . The first column is the
     “subject” ID and the second one is the activity\_name. The others 66
